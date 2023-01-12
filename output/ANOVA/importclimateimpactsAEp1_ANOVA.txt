@@ -1,0 +1,31 @@
+                        Df  Sum Sq Mean Sq F value   Pr(>F)    
+GCM                      1      57      57   0.799  0.37128    
+GGCM                     1     517     517   7.260  0.00705 ** 
+region                  30   21724     724  10.159  < 2e-16 ***
+year                    39  119865    3073  43.116  < 2e-16 ***
+crop                     9    1420     158   2.213  0.01844 *  
+GCM:region              30     801      27   0.374  0.99926    
+GCM:year                39  159205    4082  57.267  < 2e-16 ***
+GCM:crop                 9     228      25   0.355  0.95603    
+GGCM:region             30    5331     178   2.493 1.09e-05 ***
+GGCM:year               39   45062    1155  16.209  < 2e-16 ***
+GGCM:crop                9    1281     142   1.996  0.03559 *  
+GCM:GGCM                 1       9       9   0.125  0.72367    
+region:crop            269   15003      56   0.782  0.99651    
+year:crop              351  977615    2785  39.073  < 2e-16 ***
+region:year           1170 1114721     953  13.366  < 2e-16 ***
+GCM:GGCM:year           39   33367     856  12.002  < 2e-16 ***
+GCM:GGCM:region         30     230       8   0.108  1.00000    
+GCM:GGCM:crop            9     312      35   0.486  0.88518    
+GCM:region:crop        269     667       2   0.035  1.00000    
+GGCM:region:crop       269    4024      15   0.210  1.00000    
+GCM:year:crop          351  714520    2036  28.558  < 2e-16 ***
+GGCM:year:crop         351  307317     876  12.283  < 2e-16 ***
+GCM:region:year       1170  805874     689   9.663  < 2e-16 ***
+GGCM:region:year      1170  319021     273   3.825  < 2e-16 ***
+GCM:GGCM:region:crop   269     441       2   0.023  1.00000    
+GCM:GGCM:year:crop     351  204653     583   8.179  < 2e-16 ***
+GCM:GGCM:region:year  1170  204050     174   2.447  < 2e-16 ***
+Residuals            41964 2991319      71                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
